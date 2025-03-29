@@ -3,7 +3,11 @@
 FROM openjdk:8u312-jre-buster
 
 LABEL version="1.13.9H"
-
+LABEL homepage.group=Minecraft
+LABEL homepage.name="Vault Hunters - Official Modpack-1.13.9H"
+LABEL homepage.icon="https://media.forgecdn.net/avatars/356/341/637516501018536427.png"
+LABEL homepage.widget.type=minecraft
+LABEL homepage.widget.url=VaultHunters:25565
 RUN apt-get update && apt-get install -y curl && \
  adduser --uid 99 --gid 100 --home /data --disabled-password minecraft
 
