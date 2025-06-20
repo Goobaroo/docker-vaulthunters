@@ -11,9 +11,9 @@ else
 	exit 99
 fi
 
-if ! [[ -f VaultHunters-OfficialModpack-1.13.9h-Server.zip ]]; then
+if ! [[ -f VaultHunters-OfficialModpack-1.12.4-Server.zip ]]; then
   rm -fr config defaultconfigs scripts forge-*.jar start.sh *Server.zip
-	curl -Lo VaultHunters-OfficialModpack-1.13.9h-Server.zip 'https://edge.forgecdn.net/files/3996/468/VaultHunters-OfficialModpack-1.13.9h-Server.zip' && unzip -u -o 'VaultHunters-OfficialModpack-1.13.9h-Server.zip' -d /data
+	curl -Lo VaultHunters-OfficialModpack-1.12.4-Server.zip 'https://edge.forgecdn.net/files/3621/294/VaultHunters-OfficialModpack-1.12.4-Server.zip' && unzip -u -o 'VaultHunters-OfficialModpack-1.12.4-Server.zip' -d /data
 fi
 
 if [[ -n "$OPS" ]]; then

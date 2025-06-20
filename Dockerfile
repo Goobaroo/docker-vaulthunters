@@ -2,9 +2,9 @@
 
 FROM openjdk:8u312-jre-buster
 
-LABEL version="1.13.9H"
+LABEL version="1.12.4"
 LABEL homepage.group=Minecraft
-LABEL homepage.name="Vault Hunters - Official Modpack-1.13.9H"
+LABEL homepage.name="Vault Hunters - 1.12.4"
 LABEL homepage.icon="https://media.forgecdn.net/avatars/356/341/637516501018536427.png"
 LABEL homepage.widget.type=minecraft
 LABEL homepage.widget.url=udp://VaultHunters:25565
