@@ -1,4 +1,4 @@
-# [Vault Hunters - 1.12.4](https://www.curseforge.com/minecraft/modpacks/vault-hunters-official-modpack) on Curseforge
+# [Vault Hunters - Official Modpack-1.13.9H](https://www.curseforge.com/minecraft/modpacks/vault-hunters-official-modpack) on Curseforge
 
 <!-- toc -->
 
@@ -18,7 +18,7 @@
 
 This container is built to run on an [Unraid](https://unraid.net) server, outside of that your milliage will vary.
 
-The docker on first run will download the same version as tagged of `Vault Hunters - 1.12.4` and install it.  This can take a while as the Forge installer can take a bit to complete.  You can watch the logs and it will eventually finish.
+The docker on first run will download the same version as tagged of `Vault Hunters - Official Modpack-1.13.9H` and install it.  This can take a while as the Forge installer can take a bit to complete.  You can watch the logs and it will eventually finish.
 
 After the first run it will simply start the server.
 
@@ -37,7 +37,7 @@ As the end user, you are repsonsible for accepting the EULA from Mojang to run t
 These environment variables can be set at run time to override their defaults.
 
 * JVM_OPTS "-Xms6144m -Xmx8192m"
-* MOTD "Vault Hunters - 1.12.4 Server Powered by Docker"
+* MOTD "Vault Hunters - Official Modpack-1.13.9H Server Powered by Docker"
 * LEVEL world
 
 ### Adding Minecraft Operators
