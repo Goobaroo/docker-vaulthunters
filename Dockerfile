@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 
-FROM eclipse-temurin:8u312-jre-buster
+FROM openjdk:8u312-jre
 
 LABEL version="1.13.9H"
 LABEL homepage.group=Minecraft
